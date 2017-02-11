@@ -132,9 +132,6 @@ public class EmployeeController
 		
 		// Mark Session Complete and redirect to URL so that page refresh do not re-submit the form
 		status.setComplete();
-		
-//		String redirectUrl = request.getScheme() + "employee-module";
-//	    return "redirect:" + redirectUrl;
 				
 		return "redirect:/employee-module";
 	}
